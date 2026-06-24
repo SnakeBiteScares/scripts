@@ -10,6 +10,7 @@ DEFAULT_SCAN_DIR = "/data/media/movies-uhd"
 VIDEO_EXTENSIONS = {".mkv", ".mp4", ".m4v", ".avi", ".mov"}
 CHANNEL_PATTERN = r"\d+(?:\.\d+)+"
 
+
 LOSSLESS_CODECS = (
     "TrueHD Atmos",
     "TrueHD",
@@ -21,6 +22,7 @@ LOSSLESS_CODECS = (
     "LPCM",
     "MLP",
 )
+
 
 LOSSY_CODECS = (
     "EAC3 Atmos",
@@ -38,6 +40,7 @@ LOSSY_CODECS = (
     "Opus",
     "MP3",
 )
+
 
 CODECS = sorted(
     [(codec, "LOSSLESS") for codec in LOSSLESS_CODECS]
@@ -372,11 +375,6 @@ def main():
     print()
     print(f"SCAN DIR: {root}")
     print(f"SCHEME:   {scheme_label}")
-    print(f"OUTPUT:   {output}")
-    print()
-    print(f"ALL MA RELEASES: {ma_count}")
-    print(f"LOSSLESS: {count_section(grouped, 'LOSSLESS')}")
-    print(f"LOSSY:    {count_section(grouped, 'LOSSY')}")
     print()
 
     if output in {"full", "results"}:
