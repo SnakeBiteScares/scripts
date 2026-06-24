@@ -313,7 +313,8 @@ def print_summary(ma_count, grouped):
             print(f"{label:<{label_width}} {count:>4}")
             return
 
-        print(f"{label:<{label_width}} {count:>4} ({percent:.1f}%)")
+        percent_text = f"({percent:.1f}%)"
+        print(f"{label:<{label_width}} {count:>4} {percent_text:>7}")
 
     print("SUMMARY")
     print("-------")
