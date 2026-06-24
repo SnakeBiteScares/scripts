@@ -1,5 +1,16 @@
 # Changelog
 
+## scan-ma-groups-v0.1.0 - 2026-06-24
+
+### Added
+
+- Scan MA-tagged movie filenames.
+- Support standard bracketed naming.
+- Support P2P dot-separated naming.
+- Count MA releases by release group.
+- Show release group counts and percentages.
+- Report files without a release group as NO-GROUP.
+
 ## scan-ma-audio-v0.1.0 - 2026-06-24
 
 ### Added

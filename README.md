@@ -2,6 +2,14 @@
 
 A small collection of utility scripts.
 
+## scan-ma-groups.py
+
+Scans movie filenames for MA-tagged releases and counts them by release group.
+
+Run:
+
+    python3 scan-ma-groups.py
+
 ## scan-ma-audio.py
 
 Scans movie filenames for MA-tagged releases and reports whether the filename audio tag is lossless or lossy.
