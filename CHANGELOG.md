@@ -1,5 +1,12 @@
 # Changelog
 
+## scan-ma-audio-v0.1.1 - 2026-06-24
+
+### Changed
+
+- Simplified summary output by removing duplicate MA, lossless, and lossy totals from the header.
+- Removed the output mode line from normal printed results.
+
 ## scan-ma-groups-v0.1.0 - 2026-06-24
 
 ### Added
